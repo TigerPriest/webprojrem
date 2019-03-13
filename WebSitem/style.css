@@ -22,32 +22,35 @@
 /* Sol içeriği sola dayıyoruz. */
 #left {
   margin-top: 10px;
-  width: 820px;
+  width: 805px;
   float: left;
+ 
 }
 #left2 {
   margin-top: 10px;
-  width: 500px;
+  width: 600px;
   float: left;
 }
 
 /* Sağ içeriğide sağa dayıyoruz. */
 #right {
   margin-top:10px;
+  margin-right:3px;
   float: right;
   margin-:1px;
-  width: 290px;
+  width: 196px;
+  height: 400px
 }
-#slider {
+.slider {
   background-color: #000;
   height: 120px;
   color: #FFF;
-  width: 803px;
+  width: 805px;
 }
-#slider2{
+.slider2{
 	background-color: #000;
-	height: 266px;
-	width: 500px;
+	height: 400px;
+	width: 600px;
 	color: #FFF;
 }
 .icerik {
@@ -69,8 +72,8 @@
 .widgets {
   margin-bottom: 10px;
   background: #000;
-  height: 150px;
-  width: 175px;
+  height: 400px;
+  width: 196px;
   color: #FFF;
 }
 
