@@ -24,14 +24,19 @@
   margin-top: 10px;
   width: 805px;
   float: left;
- 
+
+
 }
 #left2 {
   margin-top: 10px;
   width: 600px;
   float: left;
 }
-
+#orta{
+  margin-top: 10px auto;
+  width: 805px;
+  height: 480px;
+}
 /* Sağ içeriğide sağa dayıyoruz. */
 #right {
   margin-top:10px;
@@ -62,6 +67,15 @@
   width: 200px;
   color: #FFF;
 }
+.icerik2{
+  float: left;
+  background: #000;
+  height: 225px;
+  width: 350px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
 .konu {
   margin-top: 10px;
   width: 610px;
@@ -76,6 +90,7 @@
   width: 196px;
   color: #FFF;
 }
+.haber
 
 /* Son olarak alt kısmı sabitliyor ve boyutlandırıyoruz. */
 #footer {
@@ -85,5 +100,15 @@
   margin-right: -10px;
   background-color: #000;
   height: 50px;
+  width: 800px;
   color: #FFF;
+}
+input.gonder{
+    color: #224059;
+    background-color: #b5c9e2;
+    border-top: 2px #cce3ff solid;
+    border-left: 2px #cce3ff solid;
+    border-bottom: 2px #31557f solid;
+    border-right: 2px #31557f solid;
+    font:bold 12px Arial, Helvetica, sans-serif;
 }
