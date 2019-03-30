@@ -1,0 +1,71 @@
+#container{
+	width: 500px;
+	margin: auto;
+}
+img {
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 4px;
+  
+}
+#sol{
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+#sağ{
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: ;
+}
+#orta{
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#alt{
+	margin-bottom: 15px;
+    padding-left: 700px;
+    padding-top: 350px;
+
+
+}
+p {
+	text-align: center;
+	font-size: 6em;
+	margin: 20px 20px 20px 0;
+}
+a {
+	text-decoration: none;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+  	transition: all 0.5s;
+}
+p:nth-child(1) a {
+  color: orange;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+p a:hover {
+  color: orange;
+}
+@keyframes neon1 {
+  
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FFAB00,
+     0 0 20px #FF7500, 0 0 35px #F90, 0 0 40px #F90, 0 0 50px #FFAB00
+}
+@media (max-width: 650px) {
+  #container {
+    width: 100%;
+  }
+  p {
+    font-size: 3.5em;
+  }
+}
