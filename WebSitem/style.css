@@ -1,12 +1,6 @@
 @charset "utf-8";
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #E19800;
-}
+ul {list-style-type: none;  margin: 0; padding: 0; overflow: hidden; background-color: #E19800;}
 
 li {
     float: left;
@@ -23,50 +17,17 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }/* Float ile verdiğimiz değerlerin alanları boş kaldığından diğer divler o bölgeye yerleşiyor. Bunu engellemek için clear:both komutunu kullanıyoruz. */
-.duzelt {
-  clear:both;
-}
-
+.duzelt {clear:both;}
 /* Site içeriğini ortalıyor ve genel boyutu belirtiyoruz. */    
-#ortala {
-  margin: 0 auto;
-  width:800px;
-
-}
-
+#ortala {  margin: 0 auto;width:800px;}
 /* Üst kısmın sabitlenmesi ve diğer ayarlayını yapıyoruz. */
-#header {
-  height: 100px;
-  color: #FFF;
-}
-
+#header {height: 100px;color: #FFF;}
 /* Sol içeriği sola dayıyoruz. */
-#left {
-  margin-top: 10px;
-  width: 805px;
-  float: left;
-
-
-}
-#left2 {
-  margin-top: 10px;
-  width: 600px;
-  float: left;
-}
-#orta{
-  margin-top: 10px auto;
-  width: 805px;
-  height: 480px;
-}
+#left {margin-top: 10px;width: 805px;float: left;}
+#left2 {margin-top: 10px;width: 600px;float: left;}
+#orta{margin-top: 10px auto;width: 805px;height: 480px;}
 /* Sağ içeriğide sağa dayıyoruz. */
-#right {
-  margin-top:10px;
-  margin-right:3px;
-  float: right;
-  margin-:1px;
-  width: 196px;
-  height: 400px
-}
+#right {margin-top:10px;margin-right:3px;float: right;margin-:1px;width: 196px;height: 400px}
 
 .slider {
   height: 120px;
