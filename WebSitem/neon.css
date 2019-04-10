@@ -18,7 +18,7 @@ img {
 	margin-top: auto;
 	margin-right: auto;
 	margin-bottom: auto;
-	margin-left: ;
+	margin-left: auto;
 }
 #orta{
 	margin-top: auto;
@@ -40,15 +40,11 @@ p {
 }
 a {
 	text-decoration: none;
-	-webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-  	transition: all 0.5s;
+  transition: all 0.5s;
 }
 p:nth-child(1) a {
   color: orange;
   font-family: Monoton;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
