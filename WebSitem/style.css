@@ -26,7 +26,7 @@ background-image: SİTE\ApexAnaSayfa.jpg}
 /* Sol içeriği sola dayıyoruz. */
 #left {margin-top: 10px;width: 805px;float: left;}
 #left2 {margin-top: 10px;width: 600px;float: left;}
-#orta{margin-top: 10px auto;width: 805px;height: 480px;}
+#orta{width: 805px;height: 800px;}
 /* Sağ içeriğide sağa dayıyoruz. */
 #right {margin-top:10px;margin-right:3px;float: right;/*! margin-:1px; */width: 196px;height: 400px}
 
@@ -50,8 +50,8 @@ background-image: SİTE\ApexAnaSayfa.jpg}
 }
 .icerik2{
   float: left;
-  height: 225px;
-  width: 350px;
+  height: 325px;
+  width: 362px;
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 30px;
@@ -78,10 +78,11 @@ background-image: SİTE\ApexAnaSayfa.jpg}
   margin-bottom: -10px;
   margin-left: -10px;
   margin-right: -10px;
- 
-  height: 50px;
-  width: 800px;
-  color: #FFF;
+  background-color: #EEC900
+  height: 100px;
+  width: 1875px;
+  color: green;
+  
 }
 input.gonder{
     color: #224059;
