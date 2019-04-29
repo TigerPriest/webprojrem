@@ -6,7 +6,12 @@ img {
   border: 2px solid red;
   border-radius: 20px;
   padding: 4px;
-  
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+img:hover{
+	opacity: 0.5;
+}
+	
 }
 #sol{
 	margin-top: auto;
@@ -46,9 +51,9 @@ a {
   transition: all 0.5s;
 }
 p:nth-child(1) a {
-  color: orange;
-  font-family: Monoton;
-  animation: neon1 1.5s ease-in-out infinite alternate;
+  color: red;
+  font-family: monospace;
+  animation: neon1 0.5s ease-in-out infinite alternate;
 }
 
 p a:hover {
@@ -57,9 +62,10 @@ p a:hover {
 @keyframes neon1 {
   
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FFAB00,
-     0 0 20px #FF7500, 0 0 35px #F90, 0 0 40px #F90, 0 0 50px #FFAB00
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff7f73,
+     0 0 20px #ff5b4c, 0 0 35px #ff3d2b, 0 0 40px #ff3d2b, 0 0 50px #ff1500
 }
+
 @media (max-width: 650px) {
   #container {
     width: 100%;
