@@ -22,7 +22,7 @@ li a:hover:not(.active) {
 #ortala {  margin: 0 auto;width:800px;}
 /* Üst kısmın sabitlenmesi ve diğer ayarlayını yapıyoruz. */
 #header {height: 100px;color: #FFF;
-background-image: SİTE\ApexAnaSayfa.jpg}
+}
 /* Sol içeriği sola dayıyoruz. */
 #left {margin-top: 10px;width: 805px;float: left;}
 #left2 {margin-top: 10px;width: 600px;float: left;}
@@ -143,4 +143,87 @@ h2.ex{
 .rowsag{
   height: 800px;
   width: 200px
+}
+.haberrow{
+  margin-top:80px;
+  margin-left: 550px;
+  height: 800px;
+  width: 800px;
+}
+.habericerigi{
+  margin-top: 25px;
+  background-color: white;
+  height: 200px;
+  width: 800px;
+  border-style: solid;
+  border-color: rgb(205 133 63);
+}
+.habericerigi:hover{
+  opacity: 0.5;
+}
+.haberresim{
+  margin-top: 4px;
+  margin-left: 4px;
+  height: 196px;
+  width: 750px;
+  position: left;
+}
+.Katagorirow{
+  height: 800px;
+  width: 800px;
+  margin-top: 80px;
+  margin-right: 550px
+  padding-left:500px;
+}
+.katagorisutun{
+ margin-top: 25px;
+ height: 380px;
+  width: 380px;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(205 133 63); 
+}
+.katagorisutun:hover{
+  opacity: 0.7;
+}
+div.gallery{
+  border:1px solid #ccc;
+}
+div.gallery:hover{
+  border:1px solid #777;
+}
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+*{
+  box-sizing: border-box;
+}
+.responsive{
+  padding: 0 6px;
+  float: left;
+  width: 130%
+}
+@media only screen and (max-width: 700px){
+  .responsive{
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.OyuniciGorsel2{
+  height: 800px;
+  width: 800px;
+  margin-top: 80px;
+  margin-left: 550px;
+  padding-left:500px;
 }
