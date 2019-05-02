@@ -1,6 +1,10 @@
 @charset "utf-8";
 
-ul {list-style-type: none;   overflow: hidden; background-color: #9E6B02;}
+ul {list-style-type: none;   
+  overflow: hidden; 
+  
+  padding-left: 200px;
+}
 
 li {
     float: left;
@@ -187,14 +191,15 @@ h2.ex{
   opacity: 0.7;
 }
 div.gallery{
-  border:1px solid #ccc;
+  border:2px solid #ccc;
 }
 div.gallery:hover{
-  border:1px solid #777;
+  border:7px solid #777;
 }
 div.gallery img{
   width: 100%;
   height: auto;
+
 }
 *{
   box-sizing: border-box;
@@ -226,4 +231,94 @@ div.gallery img{
   margin-top: 80px;
   margin-left: 550px;
   padding-left:500px;
+}
+.btnpubg {
+  background-color: #c2b834 ;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btnapex {
+  background-color: #c7004c ;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btncsgo {
+  background-color: #890728 ;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnpubg:hover {
+  background-color: RoyalBlue;
+  opacity: 1;
+}
+.btnapex:hover {
+  background-color:   #ff7f7f;
+  opacity: 1;
+}
+.btncsgo:hover {
+  background-color:   #5e4949;
+  opacity: 1;
+}
+
+.Pubggeri {
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #A88B1B;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+.Pubggeri:hover {
+  background-color:   #5e4949;
+  opacity: 1;
+}
+
+.Apexgeri {
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #CC584D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+.Apexgeri:hover {
+  background-color:   #5e4949;
+  opacity: 1;
+}
+.Csgogeri {
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #854442;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+.Csgogeri:hover {
+  background-color:   #5e4949;
+  opacity: 1;
 }
